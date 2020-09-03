@@ -1,6 +1,6 @@
 # Code-quiz
 
-https://zanepemberton.github.io/Code-quiz/.
+(https://zanepemberton.github.io/Code-quiz/.)
 
 This is an interactive easy multiple choice challenge built on a timed code quiz, All powered by JavaScrip and all questions are about Javascript. Are you ready to take the test?
 
