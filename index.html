@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+	<head>
+		<title>Java Code Quiz</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link href="C:\Users\ZaneP\Desktop\Code-quiz\style.css" rel="stylesheet" type="text/css">
+        <script src = "C:\Users\ZaneP\Desktop\Code-quiz\script.js"></script>
+	</head>
+	
+	<body>
+
+		<!-- nav bar -->
+	    <nav id="nav">
+            <!-- highscore link -->
+		    <div class="left">
+			    <a onclick="getScore()" href="#"><h4 >View Highscores</h4></a>
+			</div>
+
+			<!-- timer -->
+			<div>
+			<h3>Timer: <span class="timeLeft">0</span></h3>
+			</div>
+		</nav>	
+			
+        <!-- header for body -->
+        <header>
+		    <h1>   
+			    Javascript Code Quiz!
+		    </h1>
+		</header>
+		
+        <!-- quiz body -->
+		<section id="quiz">
+            <div class="quizBody">
+				<h2>
+					Are you ready to take the test?
+				</h2>
+                <p>
+				Be warned you will lose 15 seconds of time for a wrong answer! 
+				There are only 5 questions and you will be scored out of 5 at the end. Good luck and enjoy! 
+				</p>
+				<button onclick="start()">Start!</button>
+            </div>
+		</section>
+	</body>
+</html>
