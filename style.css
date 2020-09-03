@@ -36,6 +36,8 @@ h4 {
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color:lightseagreen;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .quizBody {
@@ -43,11 +45,6 @@ body {
     padding: 50px;
     text-align: center;
     margin-bottom: 50px;
-}
-
-p {
-    font-size: 20px;
-    font-weight: bold;
 }
 
 button {
@@ -61,9 +58,4 @@ button {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
     margin: 3px;
     padding: 10px;
-}
-
-.name {
-    text-align: center;
-    padding: 8px;
 }
